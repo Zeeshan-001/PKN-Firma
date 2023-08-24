@@ -1,0 +1,41 @@
+.footer{
+    padding: 25px;
+    display: flex;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.footer h3{
+    font-size: 28px;
+    padding: 6px 16px;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footer span{
+    font-size: 10px;
+}
+
+.footer .footer_social_items{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    justify-content: space-between;
+    padding-right: 15px;  
+}
+
+.footer .footer_social_items li{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+    display: block;
+}
+
+.footer .footer_social_items li:hover{
+    border-bottom: 1px solid #000;
+    transition: ease-in-out;
+}
